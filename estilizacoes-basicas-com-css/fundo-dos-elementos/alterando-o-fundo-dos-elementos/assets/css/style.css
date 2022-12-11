@@ -1,0 +1,11 @@
+.exemplo {
+    width: 900px;
+    height: 900px;    
+    background-image: url('../images/background-01.jpg');
+    /*
+    background-color: palevioletred;
+    background-image: linear-gradient(blue, lightblue, green);
+    background-image: radial-gradient(white, lightblue, blue);
+    background-image: repeating-linear-gradient(to top, darkblue 0 20px, blue 20px 40px, lightblue 40px 60px);
+    */
+}
