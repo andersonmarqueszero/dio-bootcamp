@@ -14,5 +14,5 @@ div {
     Caso dois valores forem utilizados, o primeiro é referente ao eixo X e o segundo ao eixo Y.
     Também é possível utilizar referentes de acordo com o afastamento da margem, por exemplo:
     background-position: bottom 20px right 10px;*/
-    background-position: left 40px right 20px;
+    background-position: left 40px bottom 20px;
 }
