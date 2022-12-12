@@ -1,0 +1,35 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/background-02.jpg');
+    background-size: 120px;
+    border: 1px solid red;
+    /*
+    Caso a aplicação seja utilizada de maneira geral, a primeira palavra se refere ao eixo X, e a segunda ao eixo Y
+    background-repeat: no-repeat round;
+    */
+}
+
+#repeat-x {
+    background-repeat: repeat-x;
+}
+
+#repeat-y {
+    background-repeat: repeat-y
+}
+
+#space {
+    background-repeat: space;
+}
+
+#round {
+    background-repeat: round;
+}
+
+#no-repeat {
+    background-repeat: no-repeat;
+}

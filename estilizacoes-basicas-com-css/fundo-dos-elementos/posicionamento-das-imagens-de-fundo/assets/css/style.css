@@ -1,0 +1,18 @@
+div {
+    margin-bottom: 30px;
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    background-image: url('../images/background-02.jpg');
+    background-size: 120px;
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    /* Background Position pode ser usado de acordo com sua posição: center, bottom, left, right;
+    de acordo com pixels, usando um número + px (ex: 20px); ou porcentagem.
+    Caso dois valores forem utilizados, o primeiro é referente ao eixo X e o segundo ao eixo Y.
+    Também é possível utilizar referentes de acordo com o afastamento da margem, por exemplo:
+    background-position: bottom 20px right 10px;*/
+    background-position: left 40px right 20px;
+}
