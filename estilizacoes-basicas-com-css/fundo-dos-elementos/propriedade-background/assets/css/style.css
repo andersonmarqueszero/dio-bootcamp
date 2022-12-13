@@ -1,0 +1,26 @@
+body {
+    background: lightcyan;
+    height: 300vh;
+}
+
+div {
+    margin-bottom: 30px;    
+}
+
+.exemplo {
+    width: 300px;
+    height: 300px;
+    border: 15px dashed palegreen;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    background:
+        url('../images/background-01.jpg') /* background-image */
+        top center / 200px 200px /*background-position / background-size */
+        no-repeat /* background-repeat */
+        fixed /* background-attachment */
+        padding-box /* background-origin */
+        content-box /* background-clip */
+        red /* background-color */;
+}
