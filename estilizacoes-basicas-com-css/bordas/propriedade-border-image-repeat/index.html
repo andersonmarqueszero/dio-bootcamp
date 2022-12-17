@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        * {
+            font-family: Roboto, sans-serif;
+        }
+
+        .exemplo {
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            border: 100px solid
+        }
+
+        #exemplo-1 {
+            border-image-source: url('./assets/image/border-image.png');
+            /*As propriedades de image-repeat podem ser: repeat, stretch, round ou space*/
+            border-image-repeat: round space stretch repeat;
+            border-image-slice: 450 fill;
+            border-image-width: 10px 20px 30px 40px;                       
+        }
+
+        #exemplo-2 {
+            border-image-source: linear-gradient(blue, green);
+            border-image-slice: 10;
+            border-image-width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bordas com Imagens</h1>
+    <ul>
+        <li>border-image-source</li>
+        <li>border-image-width</li>
+        <li>border-image-repeat</li>
+        <li>border-image-outset</li>
+        <li>border-image-slice</li>
+    </ul>
+    <h2>Exemplo:</h2>
+    <div id="exemplo-1" class="exemplo"></div>
+    <br>
+    <div id="exemplo-2" class="exemplo"></div>
+</body>
+</html>
