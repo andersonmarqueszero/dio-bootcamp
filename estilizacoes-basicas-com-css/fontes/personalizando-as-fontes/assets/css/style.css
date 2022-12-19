@@ -1,0 +1,14 @@
+* {
+    /*As fontes podem variar entre:
+    1. sans-serif
+    2. monospace
+    3. cursive
+    4. fantasy
+    Ou ainda, é possível aplicar fontes específicas, utilizando seus nomes
+    Se a fonte possuir mais de um nome, com espaços, é preciso utilizar aspas,
+    por exemplo, em "Times New Roman";
+    
+    Se o navegador não encontrar a fonte definida inicialmente, é possível separar as fontes
+    por vírgula, para que aconteça o fallback, e o navegador tente encontrar outras fontes.*/
+    font-family: Arial, "Times New Roman", sans-serif;
+}
