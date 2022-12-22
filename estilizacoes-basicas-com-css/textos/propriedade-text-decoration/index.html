@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        /*A propriedade text-decoration utiliza os seguinte valores:
+        1. none
+        2. underline
+        3. overline
+        4. line-through
+        */
+        h1 + p {
+            text-decoration-line: underline;
+            text-decoration-style: wavy; /*Outros valores podem ser: solid, dotted, dashed, double*/
+            text-decoration-color: darkblue;
+            text-decoration-thickness: 2px;
+            /*Também é possível utilizar as quatro propriedades separadas*/
+            text-decoration: underline wavy darkblue 2px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade </h1><code></code>
+    <p>Adiciona ou remove linhas no nosso texto: sejam linhas em cima, no meio, ou embaixo.</p>
+
+    <p>É uma propriedade abreviada de:
+    <ul>
+        <li><code>text-decoration-line</code></li>
+        <li><code>text-decoration-style</code></li>
+        <li><code>text-decoration-color</code></li>
+        <li><code>text-decoration-thickness</code></li>
+    </ul>
+    </p>
+
+    <h href="#">Link de Exemplo</h>
+</body>
+</html>
