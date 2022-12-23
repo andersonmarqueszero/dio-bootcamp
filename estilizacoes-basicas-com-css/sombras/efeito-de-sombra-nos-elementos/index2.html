@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+        img {
+            width: 900px;
+            height: 200px;
+            margin: 20px auto;
+            object-fit: cover;
+            /*Para definir a sombra dentro do objeto, por exemplo, uma imagem .png, é necessário
+            utilizar a propriedade filter + drop-shadow, dessa forma, a sombra ficará localizada
+            na parte interior da imagem*/            
+            filter: drop-shadow(10px 10px 5px black);                        
+        }
+    </style>
+</head>
+<body>
+    <h1>Propriedade <code>filter & drop-shadow</code></h1>
+
+    <img src="https://www.pngmart.com/files/13/Final-Fantasy-Logo-PNG-Background-Image.png">
+</body>
+</html>
